@@ -8,7 +8,6 @@ const ingredients = [
 ];
 
 const ulIngrRef = document.querySelector('#ingredients');
-const ulIngrItemRef = document.createElement('li');
 
 ingredients.forEach(ingr => {
   const ulIngrItemRef = document.createElement('li');
